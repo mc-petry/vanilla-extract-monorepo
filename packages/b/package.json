@@ -1,0 +1,13 @@
+{
+  "name": "@pkg/b",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@pkg/a": "workspace:^1.0.0"
+  }
+}

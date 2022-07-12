@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "paths": {
+      "@vanilla-extract/private": [
+        "../../node_modules/@vanilla-extract/private"
+      ]
+    }
+  },
+  "include": ["src"]
+}

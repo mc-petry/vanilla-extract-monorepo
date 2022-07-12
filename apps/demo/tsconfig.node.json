@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "lib": ["ES2015"],
+    "types": ["node"]
+  },
+  "include": ["config/vite.config.ts", "tsconfig.json"]
+}
